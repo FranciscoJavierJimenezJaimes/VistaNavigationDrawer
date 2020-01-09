@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgregarActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/agregar"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/usuarioname"
+        android:layout_width="101dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:contentDescription="@string/nombre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:srcCompat="@drawable/usuario" />
+
+    <EditText
+        android:id="@+id/txtnombre"
+        android:layout_width="272dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="@string/ingnombre"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toEndOf="@+id/usuarioname"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <EditText
+        android:id="@+id/txtedad"
+        android:layout_width="272dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="@string/ingedad"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toEndOf="@+id/usuariocorreo"
+        app:layout_constraintTop_toBottomOf="@+id/txtnombre" />
+
+    <EditText
+        android:id="@+id/txtcorreo"
+        android:layout_width="272dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="@string/ingcorreo"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/usuariocorreo"
+        app:layout_constraintTop_toBottomOf="@+id/txtedad" />
+    <EditText
+        android:id="@+id/txtcurp"
+        android:layout_width="272dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="@string/ingcurp"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/usuariocurp"
+        app:layout_constraintTop_toBottomOf="@+id/txtcorreo" />
+
+
+    <ImageView
+        android:id="@+id/usuarioedad"
+        android:layout_width="101dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/edad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usuarioname"
+        app:srcCompat="@drawable/edad" />
+
+    <ImageView
+        android:id="@+id/usuariocorreo"
+        android:layout_width="101dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/correo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usuarioedad"
+        app:srcCompat="@drawable/correo" />
+
+    <ImageView
+        android:id="@+id/usuariocurp"
+        android:layout_width="101dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/curp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usuariocorreo"
+        app:srcCompat="@drawable/curp" />
+
+    <Button
+        android:id="@+id/btnagregar"
+        style="@android:style/Widget.DeviceDefault.Light.Button.Borderless.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/agregar"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtcurp"
+        app:layout_constraintVertical_bias="0.227" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

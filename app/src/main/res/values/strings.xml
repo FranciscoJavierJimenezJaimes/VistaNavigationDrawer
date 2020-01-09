@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">AgendaSQLiteFJJJ</string>
+    <string name="open">Abrir</string>
+    <string name="close">Cerrar</string>
+    <string name="Add">Agregar</string>
+    <string name="Sel">Mostrar</string>
+    <string name="agregar">AGREGAR</string>
+    <string name="eliminar">ELIMINAR</string>
+    <string name="actualizar">ACTUALIZAR</string>
+    <string name="id">Id</string>
+    <string name="nombre">Nombre</string>
+    <string name="edad">Edad</string>
+    <string name="correo">Correo</string>
+    <string name="curp">Curp</string>
+    <string name="ingnombre">Ingresa tu nombre</string>
+    <string name="ingedad">Ingresa tu edad</string>
+    <string name="ingcorreo">Ingresa tu correo</string>
+    <string name="ingcurp">Ingresa tu curp</string>
+    <string name="back">Menu principal</string>
+    <string name="consulta">REGISTROS</string>
+    <string name="btnlista">Lista</string>
+    <string name="btnagregar">Agregar</string>
+    <string name="btninsertar">Insertar</string>
+    <string name="btneliminar">Eliminar</string>
+    <string name="btnupdate">Actualizar</string>
+    <string name="txtnombre">Ingresa tu nombre</string>
+    <string name="txtedad">Ingresa tu edad</string>
+    <string name="txtcorreo">Ingresa tu correo</string>
+    <string name="txtcurp">Ingresa tu curp</string>
+    <string name="guardar">Guardar datos</string>
+    <string name="regresar">Menu principal</string>
+    <string name="txtid">Ingresa un id</string>
+    <string name="titleid">tu Id</string>
+    <string name="titlenombre">tu Nombre</string>
+    <string name="titleedad">tu Edad</string>
+    <string name="titlecorreo">tu correo</string>
+    <string name="titlecurp">tu curp</string>
+    <string name="btnback">Menu principal</string>
+    <string name="titlemostrar">Listado</string>
+    <string name="ingnom">Ingresa nombre</string>
+
+
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
